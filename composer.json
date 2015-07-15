@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {"phpdisample\\": "src/"}
+  },
+  "require": {
+	 "php": "5.6.*",
+	 "php-di/php-di": "5.*",
+         "ocramius/proxy-manager": "~1.0"
+  }
+}
