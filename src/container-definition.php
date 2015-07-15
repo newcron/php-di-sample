@@ -3,7 +3,7 @@
 use phpdisample\sample\UserStore;
 
 return [
-    UserStore::class => DI\object(UserStore::class)
+    \phpdisample\sample\UserService::class => DI\object(\phpdisample\sample\UserService::class)
 
 ];
 
